@@ -12,7 +12,7 @@ function tbe_enqueue_scripts(){
 
 	// modernizr, hoverintent, superfish, match-height, scrollto, fitvid, owl-carousel
 	wp_register_script( 'a11y-accordion', TBE_LIBRARY_JS_VENDOR_URI . 'accessible-accordion.min.js', 'jquery', '0.1.0', true );
-	wp_register_script( 'accessible-tabs', TBE_LIBRARY_JS_VENDOR_URI . 'accessible-tabs..min.js', 'jquery', '0.1.0', true );
+	wp_register_script( 'accessible-tabs', TBE_LIBRARY_JS_VENDOR_URI . 'accessible-tabs.min.js', 'jquery', '0.1.0', true );
 	wp_register_script( 'accessible-toggles', TBE_LIBRARY_JS_VENDOR_URI . 'accessible-toggles.min.js', 'jquery', '0.1.0', true );
 
 	// Enqueue Vendor Scripts
