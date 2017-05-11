@@ -617,7 +617,7 @@ function tbe_get_parent_editor_stylesheet_uri() {
 function tbe_get_editor_stylesheet_uri() {
 
 	$style_uri = '';
-	$suffix    = hybrid_get_min_suffix();
+	$suffix    = tbe_get_min_suffix();
 	$dir       = trailingslashit( get_stylesheet_directory() );
 	$uri       = trailingslashit( get_stylesheet_directory_uri() );
 
