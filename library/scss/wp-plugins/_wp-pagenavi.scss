@@ -1,0 +1,19 @@
+.wp-pagenavi{
+  margin-left:14px;
+  .pages{
+    border-radius: 4px;
+    padding:0 15px;
+    line-height: 35px;
+    display: inline-block;
+  }
+  .current,a.page,.nextpostslink,.previouspostslink{
+    border-radius: 4px;
+    width:35px;
+    line-height: 35px;
+    padding:0;
+    margin:0 2px;
+    font-size:14px;
+    text-align: center;
+    display: inline-block;
+  }
+}

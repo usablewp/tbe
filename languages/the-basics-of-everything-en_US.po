@@ -1,0 +1,437 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-01-04 10:01+0530\n"
+"PO-Revision-Date: 2017-01-04 10:02+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_ex;_x;_n;_nx\n"
+"Last-Translator: \n"
+"Language: en\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: library/js\n"
+"X-Poedit-SearchPathExcluded-1: library/scss\n"
+"X-Poedit-SearchPathExcluded-2: library/images\n"
+"X-Poedit-SearchPathExcluded-3: library/fonts\n"
+"X-Poedit-SearchPathExcluded-4: library/css\n"
+
+#: 404.php:15
+msgid "Error 404 - Nothing Found"
+msgstr ""
+
+#: 404.php:16
+msgid "It looks like nothing was found here."
+msgstr ""
+
+#: archive.php:14
+msgid "Archive"
+msgstr ""
+
+#: archive.php:18
+#, php-format
+msgid "Daily %s"
+msgstr ""
+
+#: archive.php:20
+#, php-format
+msgid "Monthly %s"
+msgstr ""
+
+#: archive.php:20
+msgid "F Y"
+msgstr ""
+
+#: archive.php:22
+#, php-format
+msgid "Yearly %s"
+msgstr ""
+
+#: archive.php:22
+msgid "Y"
+msgstr ""
+
+#: author.php:15 library/customize/parts/text-options.php:105
+msgid "Articles by"
+msgstr ""
+
+#: category.php:14
+msgid "Category"
+msgstr ""
+
+#: comments.php:12
+msgid "You cannot access this page directly."
+msgstr ""
+
+#: comments.php:21
+msgid ""
+"This post is password protected. Enter the password to view the comments."
+msgstr ""
+
+#: comments.php:31
+msgid "One comment"
+msgstr ""
+
+#: comments.php:33
+msgid "Comments"
+msgstr ""
+
+#: comments.php:40
+msgid "Sorry, Discussion is closed."
+msgstr ""
+
+#: comments.php:46
+msgid ""
+"Whoa! It looks like there are no comments yet, Be the first one to comment :)"
+msgstr ""
+
+#: comments.php:61
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:65
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:73
+msgid "Fields with ( * ) are required"
+msgstr ""
+
+#: comments.php:74
+msgid "We would love your opinion"
+msgstr ""
+
+#: comments.php:76
+msgid "Let us know what you have to say:"
+msgstr ""
+
+#: content/content-none.php:8
+msgid "Nothing found!"
+msgstr ""
+
+#: footer.php:15
+#, php-format
+msgid "All right reserved &copy; %s"
+msgstr ""
+
+#: header.php:55
+msgid "Skip to main content"
+msgstr ""
+
+#: header.php:56
+msgid "skip to footer"
+msgstr ""
+
+#: home.php:15 index.php:15 library/includes/the-basics-of-everything.php:666
+msgid "Blog"
+msgstr ""
+
+#: library/accessible-whistles/accessible-whistles.php:31
+msgid "Plain"
+msgstr ""
+
+#: library/accessible-whistles/accessible-whistles.php:32
+msgid "Plain - Two Columns"
+msgstr ""
+
+#: library/customize/customizer.php:37
+msgid "Site Name and Logo"
+msgstr ""
+
+#: library/customize/customizer.php:41
+msgid "Home page preferences"
+msgstr ""
+
+#: library/customize/customizer.php:45
+msgid "Site Background Image"
+msgstr ""
+
+#: library/customize/parts/logo-options.php:3
+msgid "Logo & Branding"
+msgstr ""
+
+#: library/customize/parts/logo-options.php:4
+msgid "Upload logo and change styling around it"
+msgstr ""
+
+#: library/customize/parts/logo-options.php:15
+msgid "Logo Retina Version"
+msgstr ""
+
+#: library/customize/parts/logo-options.php:27
+msgid "Logo for mobile"
+msgstr ""
+
+#: library/customize/parts/logo-options.php:39
+msgid "Retina Logo for mobile"
+msgstr ""
+
+#: library/customize/parts/text-options.php:4
+msgid "Site wide text"
+msgstr ""
+
+#: library/customize/parts/text-options.php:5
+msgid ""
+"Edit footer texts, read more text,comment texts, post pagination texts and "
+"archive pagination texts "
+msgstr ""
+
+#: library/customize/parts/text-options.php:15
+msgid "Footer texts"
+msgstr ""
+
+#: library/customize/parts/text-options.php:23
+msgid "All rights reserved "
+msgstr ""
+
+#: library/customize/parts/text-options.php:43
+msgid "Archive texts"
+msgstr ""
+
+#: library/customize/parts/text-options.php:51
+msgid "Read More "
+msgstr ""
+
+#: library/customize/parts/text-options.php:69
+#: library/includes/the-basics-of-everything.php:451
+msgid "Older Posts"
+msgstr ""
+
+#: library/customize/parts/text-options.php:87
+#: library/includes/the-basics-of-everything.php:458
+msgid "Newer Posts"
+msgstr ""
+
+#: library/customize/parts/text-options.php:123
+#: library/customize/parts/text-options.php:141
+msgid "Topic"
+msgstr ""
+
+#: library/customize/parts/text-options.php:161
+msgid "Single post texts"
+msgstr ""
+
+#: library/customize/parts/text-options.php:170
+msgid "Page text "
+msgstr ""
+
+#: library/customize/parts/text-options.php:187
+msgid "Next Page "
+msgstr ""
+
+#: library/customize/parts/text-options.php:205
+msgid "Previous Page "
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:58
+msgid "Primary"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:59
+msgid "Mobile"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:60
+msgid "Social"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:61
+msgid "Footer Links"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:120
+msgid "Home Page Main Content"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:121
+msgid "Widgets Placed here will appear in the main section of home page"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:133
+msgid "Internal Page Below Main Content"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:134
+msgid "Widgets Placed here will appear below the main section of internal page"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:146
+msgid "Sidebar Below Single Product Download"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:147
+msgid ""
+"Widgets Placed here will appear below the main section of single product page"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:159
+msgid "Mobile fly out box sidebar"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:160
+msgid "Widgets Placed here will appear when menu icon is clicked"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:172
+msgid "Sidebar below the single post content"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:173
+msgid ""
+"Widgets Placed here will appear below the main section of single post page"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:185
+msgid "Sidebar below the archive post content"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:186
+msgid "Widgets Placed here will appear below the main section of archive pages"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:198
+msgid "Sidebar below error 404 page content"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:199
+msgid ""
+"Widgets Placed here will appear below the main section of error 404 page"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:256
+msgid "Name *"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:388
+msgid "Pingback:"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:388
+msgid "(Edit)"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:414
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:422
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:426
+msgid "Reply"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:477
+msgid "Pages:"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:537
+#, php-format
+msgid "Page: %1$d of %2$d"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:538
+msgid "Previous Page"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:540
+msgid "Next Page"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:589
+#: library/includes/the-basics-of-everything.php:665
+msgid "Home"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:598
+#, php-format
+msgid "Posts filed under <q>%s</q>"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:650
+#, php-format
+msgid "Search results for <q>%s</q>"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:652
+#, php-format
+msgid "Posts tagged <q>%s</q>"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:655
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:657
+msgid "Error 404"
+msgstr ""
+
+#: library/includes/the-basics-of-everything.php:663
+#: library/includes/the-basics-of-everything.php:667
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: library/widgets/related-articles-widget.php:11
+msgid "Tbe Related Articles"
+msgstr ""
+
+#: library/widgets/related-articles-widget.php:93
+msgid "Headline"
+msgstr ""
+
+#: library/widgets/related-articles-widget.php:99
+msgid "Number of posts"
+msgstr ""
+
+#: library/widgets/related-articles-widget.php:105
+msgid "Articles in a row"
+msgstr ""
+
+#: parts/fly-out-sidebar.php:4
+msgid "Close Menu"
+msgstr ""
+
+#: parts/headers/logo-with-menu-icon.php:13
+msgid "Menu"
+msgstr ""
+
+#: parts/next-previous-articles.php:18
+msgid "Previous Article"
+msgstr ""
+
+#: parts/next-previous-articles.php:32
+msgid "Next Article"
+msgstr ""
+
+#: parts/single-post-content.php:20
+msgid "Categories: "
+msgstr ""
+
+#: parts/single-post-header.php:48
+msgid "Read More"
+msgstr ""
+
+#: search.php:15
+msgid "Search results for"
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search Field"
+msgstr ""
+
+#: tag.php:14
+msgid "Tag"
+msgstr ""

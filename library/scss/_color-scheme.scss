@@ -1,0 +1,299 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * General Colors
+ * ----------------------------------------------------------------------------------------
+ */
+
+// Text color
+body,
+p,
+.custom-modern .testimonial-content blockquote p,
+.wpcf7 .wpcf7-form label,
+.widget_edd_cart_widget .edd-cart-meta,
+.tabs-nav li.tabs-selected a,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+input[type="range"],
+input[type="date"],
+input[type="file"],
+input[type="password"],
+textarea,
+select
+{
+  color:black;
+}
+
+// Heading text color
+h1,h2,h3,h4,h5,h6{
+  &, a{
+    color:black;
+  }
+}
+
+//Primary color as text color
+a,
+a:hover,
+a:focus,
+.edd-cart-added-alert,
+.single-post blockquote p,
+.required-message
+{
+  color:#526d3b;
+}
+
+// Primary color as border color
+.edd_price_options.edd_multi_mode{
+  border:1px solid #526d3b;
+}
+
+// Button background color
+#sb-site input[type="submit"],
+.wpcf7-submit,
+#site-container .edd-submit,
+.edd-meta .categories a,
+.edd_checkout a,
+.page-navigation li a,
+.comment-nav a,
+.slick-arrow,
+.a11yAccordion-light .a11yAccordionItemHeader,
+.a11yAccordion-light .a11yAccordionHideArea.visiblea11yAccordionItem a,
+.tabs-nav li a,
+.collapsible-heading
+{
+  background-color:#526d3b;
+}
+
+// Button Hover background color
+#sb-site input[type="submit"]:hover,#sb-site input[type="submit"]:focus,
+.wpcf7-submit:hover, .wpcf7-submit:focus,
+#site-container .edd-submit:hover, #site-container .edd-submit:focus,
+.edd-meta .categories a:hover,.edd-meta .categories a:focus,
+.edd_checkout a:hover, .edd_checkout a:focus,
+.page-navigation li a:hover, .page-navigation li a:focus,
+.comment-nav a:hover, .comment-nav a:focus,
+.slick-arrow:hover, .slick-arrow:focus,
+.tabs-nav li a:hover, .tabs-nav li a:focus
+{
+  background-color:#597a3d;
+}
+
+// Border Color
+img,
+#comments h3,
+.comment-author-wrap,
+.logged-in-as a:hover, .logged-in-as a:focus,
+.widget_edd_cart_widget,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+input[type="range"],
+input[type="date"],
+input[type="file"],
+input[type="password"],
+textarea,
+.wpcf7 .wpcf7-form input[type="text"],
+.wpcf7 .wpcf7-form input[type="email"],
+.wpcf7 .wpcf7-form input[type="url"],
+.wpcf7 .wpcf7-form input[type="tel"],
+.wpcf7 .wpcf7-form input[type="number"],
+.wpcf7 .wpcf7-form input[type="range"],
+.wpcf7 .wpcf7-form input[type="date"],
+.wpcf7 .wpcf7-form input[type="file"],
+.wpcf7 .wpcf7-form textarea,
+.wpcf7 .wpcf7-type-1-container .wpcf7-type-1,
+.wpcf7 .wpcf7-type-1-container .border-to-the-right input,
+.widget_edd_cart_widget .edd-cart-meta,
+#edd_checkout_wrap,
+#edd_login_form,
+#edd_register_form,
+#edd_profile_editor_form,
+.edd-failed-transaction .article-content,
+#edd_purchase_receipt, #edd_purchase_receipt_products, #edd_user_history,
+.edd_price_options.edd_multi_mode li,
+.edd-remove-from-cart:hover, .edd-remove-from-cart:focus,
+#main-content .tablepress,
+.dynamic-content article .read-more:hover, .dynamic-content article .read-more:focus,
+.single-post .article-header-meta .meta-author a:hover, .single-post .article-header-meta .meta-author a:focus,
+.single-post blockquote:before,
+.format-icon,
+.next-previous-articles > div:first-child,
+.archive .topic, .search .topic,
+.edd-logged-in,
+#respond,
+#edd_profile_editor_form .edd-select,
+.gform_confirmation_message,
+.gform_wrapper .gf-style-bb input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]),
+.fpw-read-more-link:hover, .fpw-read-more-link:focus,
+.breadcrumbs a:hover, .breadcrumbs a:focus,
+.edd_cart_remove_item_btn:hover, .edd_cart_remove_item_btn:focus,
+.article-topics a:hover, .article-topics a:focus,
+.next-previous-articles a:hover, .next-previous-articles a:focus
+{
+  border-color:#ccc;
+}
+
+// Small messages and information color
+.no-comments-message, .comments-closed,
+.edd_empty_cart,
+.edd-logged-in,
+.edd-failed-transaction .article-content p,
+.dynamic-content article .archive-article-content .article-date,
+#edd_checkout_form_wrap span.edd-description,
+.edd-cart-number-of-items,
+.gform_confirmation_message{
+  color:#666;
+}
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Navigation Colors
+ * ----------------------------------------------------------------------------------------
+ */
+
+// Navigation background color
+#off-canvas,
+.logo-with-menu-icon .header-content,
+.logo-with-menu,
+#footer
+{
+  background-color:#898a7c;
+}
+
+// Navigation text color
+#menu-primary .menu > li > a,
+#sb-site input[type="submit"],
+#off-canvas a,
+#menu-social a,
+.a11yAccordion-light .a11yAccordionItemHeader,
+.a11yAccordion-light .a11yAccordionItemHeader a,
+.a11yAccordion-light .a11yAccordionHideArea.visiblea11yAccordionItem,
+.a11yAccordion-light .a11yAccordionHideArea.visiblea11yAccordionItem a,
+.collapsible-heading-toggle:hover,.collapsible-heading-toggle:focus,
+.tabs-nav li a,
+.collapsible-heading-toggle,
+#main-header .logo a,
+.site-tagline,
+.menu-icon-and-cart a,
+.menu-and-cart a,
+#footer .menu a,
+#footer p,
+.wpcf7 .wpcf7-validation-errors,
+.wpcf7 .wpcf7-mail-sent-ng,
+#site-container .edd-submit,
+.edd_go_to_checkout,
+.edd_checkout a,
+.edd-meta .categories a,
+#fly-out-sidebar .menu a,
+.page-navigation li a,
+.comment-nav a,
+.flyout-section-title,
+.slick-arrow{
+  color:white;
+}
+
+// Navigation text color on hover
+#menu-primary .menu > li:hover > a,#menu-primary .menu > li:focus > a,
+#sb-site input[type="submit"]:hover, #sb-site input[type="submit"]:focus,
+#off-canvas a:hover, #off-canvas a:focus,
+#menu-social a:hover, #menu-social a:focus,
+#main-header .logo a:hover, #main-header .logo a:focus,
+.menu-icon-and-cart a:hover, .menu-icon-and-cart a:focus,
+.menu-and-cart a:hover, .menu-and-cart a:focus,
+#footer .menu a:hover, #footer .menu a:focus,
+#site-container .edd-submit:hover, #site-container .edd-submit:focus,
+.edd_go_to_checkout:hover, .edd_go_to_checkout:focus,
+.edd_checkout a:hover, .edd_checkout a:focus,
+.edd-meta .categories a:hover, .edd-meta .categories a:focus,
+#fly-out-sidebar .menu a:hover, #fly-out-sidebar .menu a:focus,
+.page-navigation li a:hover, .page-navigation li a:focus,
+.comment-nav a:hover, .comment-nav a:focus,
+.slick-arrow:hover, .slick-arrow:focus{
+  color:#eeee22;
+}
+
+// box background color
+.a11yAccordion-light .a11yAccordionHideArea.visiblea11yAccordionItem,
+.tabs-container .tabs-body,
+.collapsible-content,
+.widget_edd_cart_widget,
+.wpcf7 .wpcf7-type-1-container .wpcf7-type-1,
+.related-article-container,
+.tabs-nav li.tabs-selected a,
+#edd_checkout_wrap,
+#edd_login_form,
+#edd_register_form,
+#edd_profile_editor_form,
+.edd-logged-in,
+.edd-failed-transaction .article-content,
+#comments,
+.edd_price_options.edd_multi_mode,
+.format-icon,
+.single-post .the-content,
+.archive-article-content,
+.page-link-next-prev,
+.gform_confirmation_message,
+.gform_wrapper .gf-style-bb input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), textarea{
+  background-color:#fff;
+}
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Dropdown Colors
+ * ----------------------------------------------------------------------------------------
+ */
+.menu li ul{
+  background-color:white;
+}
+.menu li ul a{
+  color:#222;
+}
+.menu li ul a:hover, .menu li ul a:focus{
+  color:#222;
+  background-color:#dadada;
+}
+#off-canvas .sub-menu{
+  background-color:#52534b;
+}
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Table Colors
+ * ----------------------------------------------------------------------------------------
+ */
+
+// Table header background color and text color
+table thead th,
+table tfoot th,
+#main-content tfoot th,
+#main-content thead th,
+#edd_checkout_cart thead th,
+#edd_checkout_cart tfoot th,
+#edd_purchase_receipt thead th,
+#edd_purchase_receipt_products thead th,
+#edd_user_history thead th{
+  background-color:#fafafa;
+  color:#666;
+}
+
+// Table Body background color and text color
+table tbody td,
+#main-content tbody td,
+#edd_purchase_receipt tbody td,
+#edd_checkout_cart tbody td,
+#edd_purchase_receipt_products tbody td,
+#edd_user_history tbody td{
+  background-color:#fafafa;
+  color:#666;
+}
+/*
+  Color Scheme Blue
+  #515151 - body-text - light grey
+  #00c47f - primary color - green
+  #5d8ebf - nav background - blue
+*/

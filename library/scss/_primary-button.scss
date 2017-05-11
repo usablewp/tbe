@@ -1,0 +1,20 @@
+.edd-submit,
+.edd-add-to-cart,
+.edd_go_to_checkout,
+.edd_checkout a,
+#sb-site input[type="submit"],
+.page-navigation li a,
+.comment-nav a
+{
+  line-height: 44px;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  padding:0 20px;
+  border:0;
+  border-radius: 4px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+  margin-top:10px;
+  min-width: 150px;
+}

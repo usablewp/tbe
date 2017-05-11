@@ -1,0 +1,238 @@
+.archive-page-header{
+  .topic, .archive-title{
+    text-align: center;
+  }
+}
+.dynamic-content{
+  article{
+    position: relative;
+    margin-bottom:30px;
+    .entry-thumbnail{
+      margin-bottom:0;
+      img{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+    }
+    .archive-article-content{
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+      padding:20px;
+      .article-date{
+        font-size:13px;
+      }
+    }
+    .read-more{
+      font-size:16px;
+      margin-bottom:5px;
+      &:hover,&:focus{
+        border-bottom:1px solid #ccc;
+      }
+    }
+    .format-icon {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+  }
+}
+.single-post{
+  .article-header-meta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:10px;
+    .author-avatar{
+      width:50px;
+      margin:0 auto;
+    }
+    .meta-author{
+      a{
+        &:hover,&:focus{
+          border-bottom:1px solid #ccc;
+        }
+      }
+    }
+  }
+  .entry-content{
+    .entry-thumbnail{
+      margin-bottom:0;
+      img{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+    }
+  }
+  .the-content{
+    padding:20px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  .article-date{
+    text-align: center;
+  }
+  blockquote{
+    padding:0 30px;
+    margin:30px 0;
+    position: relative;
+    &:before{
+      content: "\f10d";
+      left: 0;
+      top: 0;
+      font-family: "FontAwesome";
+      font-size: 36px;
+      font-style: normal;
+      line-height: 36px;
+      position: absolute;
+      width: 36px;
+      color:#ccc;
+      @media only screen and (max-width:767px){
+        font-size:20px;
+        width:24px;
+        line-height: 24px;
+      }
+    }
+    p{
+      padding:10px 20px;
+      font-size:30px;
+      font-style: italic;
+      text-align: center;
+    }
+  }
+}
+.page-navigation, .comment-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a{
+    display: inline-block;
+  }
+}
+.page-navigation{
+  .newer-posts{
+    margin-right: 10px;
+  }
+  .older-posts{
+    margin-left:10px;
+  }
+}
+.format-icon {
+    display: block;
+    padding: 10px;
+    width: 38px;
+    height: 38px;
+    border-radius: 4px;
+    border:2px solid #ccc;
+}
+.page-link-next-prev{
+	width: 100%;
+	font-size: 18px;
+	border-bottom:1px solid #000;
+  border-radius: 4px;
+  padding: 0 10px;
+	text-align: center;
+	height: 40px;
+	margin: 15px 0;
+	position: relative;
+	@media only screen and (max-width:500px){
+		margin:10px 0;
+		font-size:15px;
+	}
+	a{
+		font-size:18px;
+		@media only screen and (max-width:500px){
+			font-size:15px;
+		}
+	}
+	.next-page, .previous-page{
+		margin:0 10px;
+	}
+	.page-count-info,a{
+		display: inline-block;
+		line-height: 40px;
+	}
+	& a{
+		position: absolute;
+	}
+	&.middle-page a:last-of-type, &.page-number-1 a{
+		right: 10px;
+	}
+	&.middle-page a:first-of-type, &.last-page a{
+		left: 10px;
+	}
+}
+.page-navigation, .page-link-next-prev{
+  span[class*="icon"]{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top:-1px;
+  }
+}
+.next-previous-articles{
+	margin-top: 20px;
+  overflow: hidden;
+  a:hover, a:focus{
+    border-bottom:1px solid #ccc;
+  }
+  > div{
+    box-sizing: border-box;
+    @media only screen and (max-width:600px){
+      &:first-child{
+        margin-bottom:20px;
+        padding-bottom:20px;
+        border-bottom:1px solid #ccc;
+      }
+    }
+    @media only screen and (min-width:601px){
+      width:50%;
+      float:left;
+    }
+  }
+  .article-thumb{
+    width:75px;
+  }
+  .link-container{
+    padding-top:10px;
+    h4{
+      font-size:14px;
+      margin-bottom:5px;
+    }
+  }
+  .next-article{
+    .article-thumb {
+      float:right;
+    }
+    .link-container{
+      margin-right:90px;
+      text-align: right;
+    }
+  }
+  .previous-article{
+    .article-thumb {
+      float:left;
+    }
+    .link-container{
+      margin-left:90px;
+    }
+  }
+}
+.article-topics{
+  a:hover,a:focus{
+    border-bottom:1px solid #ccc;
+  }
+  > div:first-child{
+    margin-bottom:10px;
+  }
+}
+.archive .archive-page-header{
+  text-align: center;
+}
+.archive .topic, .search .topic{
+  display: inline-block;
+  text-transform: capitalize;
+  border-bottom:1px solid #ccc;
+}
+.required-message{
+  text-align: center;
+}

@@ -1,0 +1,34 @@
+.logo-with-menu-icon{
+  margin-bottom:30px;
+  margin-top:50px;
+  @media only screen and (max-width:1019px){
+    margin-top:15px;
+    margin-bottom:15px;
+  }
+  .logo-and-tagline-container{
+    width:50%;
+    @media only screen and (max-width:600px){
+      width:70%;
+    }
+  }
+  .menu-icon-and-cart{
+    text-align: right;
+    width:50%;
+    @media only screen and (max-width:600px){
+      width:30%;
+    }
+    > a{
+      display: inline-block;
+      position: relative;
+      top:2px;
+    }
+
+    .mobile-menu-toggle{
+      font-size:20px;
+    }
+
+    .cart{
+      font-size:20px;
+    }
+  }
+}
